@@ -9,7 +9,7 @@
 		</div>
 		<div class="phrase">一起学习Vue-router </div>
 		<div class="btns">
-			<router-link class="trans" to="/management" tag="div">我的项目</router-link>
+			<router-link class="trans" to="/project" tag="div">我的项目</router-link>
 			<router-link class="trans" to="/doc" tag="div">我的文档</router-link>
 		</div>
 	</div>

@@ -5,7 +5,7 @@
 			<router-link class="el-menu-item logo" to="/home" tag="li">
 				<img src="../assets/miaov.png" height="34" width="141" alt="">
 			</router-link>
-			<router-link class="el-menu-item" :to="{name:'Management'}" tag="li"><!-- 可以利用name值，使得进入某个页面时，直接默认进入某个子路由 -->
+			<router-link class="el-menu-item" :to="{name:'Project'}" tag="li"><!-- 可以利用name值，使得进入某个页面时，直接默认进入某个子路由 -->
 				<i class="fa fa-home"></i>
 				<span>我的项目</span>
 			</router-link>

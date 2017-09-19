@@ -19,13 +19,19 @@
 			sendLogin(){
 				//console.log(0)
 				let userName=this.$refs.userInput.value;
+
 				this.$local.save("userName",{
 					login:true,
 					userName:userName
 				})
 
+				let redirect = this.$route.query.redirect;
+				//console.log(redirect)
+				if(!redirect){
+					redirect='/project'
+				}
 				this.$router.push({
-					path:'/management'
+					path:'/'+redirect
 				})
 			}
 		}
